@@ -90,7 +90,7 @@ function Card() {
                                       type="number"
 									  value={e.qty}
                                       className="quantity-input"
-									  onChange={() => handleChange(event,e.id)}
+									  onChange={(event) => handleChange(event,e.id)}
                                     />
                                   </div>
                                   <div className="col-md-3 price">
